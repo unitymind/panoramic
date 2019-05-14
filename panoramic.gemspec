@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = "panoramic"
-  s.version     ='0.0.7'
+  s.version     ='0.0.8'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Andrea Pavoni"]
   s.email       = ["andrea.pavoni@gmail.com"]
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description = %q{A gem to store Rails views on database}
   s.license     = 'MIT'
 
-  s.add_runtime_dependency 'rails', '>= 4.2.0'
+  s.add_runtime_dependency 'rails', '>= 5.2.0'
   s.add_development_dependency 'rails-controller-testing'
   s.add_development_dependency 'capybara', '~> 2.5', '>= 2.5.0'
   s.add_development_dependency 'factory_bot'
